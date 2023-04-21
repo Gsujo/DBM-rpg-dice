@@ -1,0 +1,476 @@
+
+{
+  "name": "roll",
+  "permissions": "NONE",
+  "permissions2": "NONE",
+  "restriction": "1",
+  "_id": "HVMRy",
+  "actions": [
+    {
+      "storage": "4",
+      "varName": "Dice",
+      "comparison": "2",
+      "value": "d4",
+      "branch": {
+        "iftrue": "2",
+        "iffalse": "2",
+        "iftrueVal": "15",
+        "iffalseVal": "3"
+      },
+      "name": "Check Variable"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "storage": "4",
+      "varName": "Dice",
+      "comparison": "2",
+      "value": "d6",
+      "branch": {
+        "iftrue": "2",
+        "iffalse": "2",
+        "iftrueVal": "21",
+        "iffalseVal": "5"
+      },
+      "name": "Check Variable"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "storage": "4",
+      "varName": "Dice",
+      "comparison": "2",
+      "value": "d20",
+      "branch": {
+        "iftrue": "2",
+        "iffalse": "2",
+        "iftrueVal": "27",
+        "iffalseVal": "7"
+      },
+      "name": "Check Variable"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "storage": "4",
+      "varName": "Dice",
+      "comparison": "1",
+      "value": "d8",
+      "branch": {
+        "iftrue": "2",
+        "iffalse": "2",
+        "iftrueVal": "33",
+        "iffalseVal": "9"
+      },
+      "name": "Check Variable"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "storage": "4",
+      "varName": "Dice",
+      "comparison": "1",
+      "value": "d10",
+      "branch": {
+        "iftrue": "2",
+        "iffalse": "2",
+        "iftrueVal": "39",
+        "iffalseVal": "11"
+      },
+      "name": "Check Variable"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "storage": "4",
+      "varName": "Dice",
+      "comparison": "1",
+      "value": "d12",
+      "branch": {
+        "iftrue": "2",
+        "iffalse": "2",
+        "iftrueVal": "45",
+        "iffalseVal": "13"
+      },
+      "name": "Check Variable"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "storage": "4",
+      "varName": "Dice",
+      "comparison": "1",
+      "value": "d100",
+      "branch": {
+        "iftrue": "2",
+        "iffalse": "1",
+        "iftrueVal": "51"
+      },
+      "name": "Check Variable"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "storage": "1",
+      "varName": "number4",
+      "min": "1",
+      "max": "4",
+      "name": "Generate Random Number"
+    },
+    {
+      "title": "",
+      "author": "",
+      "color": "RANDOM",
+      "timestamp": "true",
+      "url": "",
+      "authorIcon": "",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "storage": "1",
+      "varName": "embed4",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "embed4",
+      "message": "> You threw **${tempVars(\"number4\")}** 🎲 \n> ${member}",
+      "name": "Set Embed Description"
+    },
+    {
+      "storage": "1",
+      "varName": "embed4",
+      "message": " Froggy",
+      "footerIcon": "https://camo.githubusercontent.com/db099a1812b9e5615d12ec9dd5e9c2225019ee3fbd5b978ed7d0f8ba58b52dc3/68747470733a2f2f692e696d6775722e636f6d2f576361594758652e706e67",
+      "name": "Set Embed Footer"
+    },
+    {
+      "storage": "1",
+      "varName": "embed4",
+      "channel": "0",
+      "varName2": "",
+      "storage3": "0",
+      "varName3": "",
+      "name": "Send Embed Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "storage": "1",
+      "varName": "number6",
+      "min": "1",
+      "max": "6",
+      "name": "Generate Random Number"
+    },
+    {
+      "title": "",
+      "author": "",
+      "color": "RANDOM",
+      "timestamp": "true",
+      "url": "",
+      "authorIcon": "",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "storage": "1",
+      "varName": "embed6",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "embed6",
+      "message": "> You threw **${tempVars(\"number6\")}** 🎲\n> ${member}",
+      "name": "Set Embed Description"
+    },
+    {
+      "storage": "1",
+      "varName": "embed6",
+      "message": "Froggy",
+      "footerIcon": "https://camo.githubusercontent.com/db099a1812b9e5615d12ec9dd5e9c2225019ee3fbd5b978ed7d0f8ba58b52dc3/68747470733a2f2f692e696d6775722e636f6d2f576361594758652e706e67",
+      "name": "Set Embed Footer"
+    },
+    {
+      "storage": "1",
+      "varName": "embed6",
+      "channel": "0",
+      "varName2": "",
+      "storage3": "0",
+      "varName3": "",
+      "name": "Send Embed Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "storage": "1",
+      "varName": "number20",
+      "min": "1",
+      "max": "20",
+      "name": "Generate Random Number"
+    },
+    {
+      "title": "",
+      "author": "",
+      "color": "RANDOM",
+      "timestamp": "true",
+      "url": "",
+      "authorIcon": "",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "storage": "1",
+      "varName": "embed20",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "embed20",
+      "message": "> You threw **${tempVars(\"number20\")}** 🎲\n> ${member}",
+      "name": "Set Embed Description"
+    },
+    {
+      "storage": "1",
+      "varName": "embed20",
+      "message": "Froggy",
+      "footerIcon": "https://camo.githubusercontent.com/db099a1812b9e5615d12ec9dd5e9c2225019ee3fbd5b978ed7d0f8ba58b52dc3/68747470733a2f2f692e696d6775722e636f6d2f576361594758652e706e67",
+      "name": "Set Embed Footer"
+    },
+    {
+      "storage": "1",
+      "varName": "embed20",
+      "channel": "0",
+      "varName2": "",
+      "storage3": "0",
+      "varName3": "",
+      "name": "Send Embed Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "storage": "1",
+      "varName": "number8",
+      "min": "1",
+      "max": "8",
+      "name": "Generate Random Number"
+    },
+    {
+      "title": "",
+      "author": "",
+      "color": "RANDOM",
+      "timestamp": "true",
+      "url": "",
+      "authorIcon": "",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "storage": "1",
+      "varName": "embed8",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "embed8",
+      "message": "> You threw **${tempVars(\"number8\")}** 🎲\n> ${member}",
+      "name": "Set Embed Description"
+    },
+    {
+      "storage": "1",
+      "varName": "embed8",
+      "message": "Froggy",
+      "footerIcon": "https://camo.githubusercontent.com/db099a1812b9e5615d12ec9dd5e9c2225019ee3fbd5b978ed7d0f8ba58b52dc3/68747470733a2f2f692e696d6775722e636f6d2f576361594758652e706e67",
+      "name": "Set Embed Footer"
+    },
+    {
+      "storage": "1",
+      "varName": "embed8",
+      "channel": "0",
+      "varName2": "",
+      "storage3": "0",
+      "varName3": "",
+      "name": "Send Embed Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "storage": "1",
+      "varName": "number10",
+      "min": "1",
+      "max": "10",
+      "name": "Generate Random Number"
+    },
+    {
+      "title": "",
+      "author": "",
+      "color": "RANDOM",
+      "timestamp": "true",
+      "url": "",
+      "authorIcon": "",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "storage": "1",
+      "varName": "embed10",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "embed10",
+      "message": "> You threw **${tempVars(\"number10\")}** 🎲\n> ${member}",
+      "name": "Set Embed Description"
+    },
+    {
+      "storage": "1",
+      "varName": "embed10",
+      "message": "Froggy",
+      "footerIcon": "https://camo.githubusercontent.com/db099a1812b9e5615d12ec9dd5e9c2225019ee3fbd5b978ed7d0f8ba58b52dc3/68747470733a2f2f692e696d6775722e636f6d2f576361594758652e706e67",
+      "name": "Set Embed Footer"
+    },
+    {
+      "storage": "1",
+      "varName": "embed10",
+      "channel": "0",
+      "varName2": "",
+      "storage3": "0",
+      "varName3": "",
+      "name": "Send Embed Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "storage": "1",
+      "varName": "number12",
+      "min": "1",
+      "max": "12",
+      "name": "Generate Random Number"
+    },
+    {
+      "title": "",
+      "author": "",
+      "color": "RANDOM",
+      "timestamp": "true",
+      "url": "",
+      "authorIcon": "",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "storage": "1",
+      "varName": "embed12",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "embed12",
+      "message": "> You threw **${tempVars(\"number12\")}** \n> ${member}",
+      "name": "Set Embed Description"
+    },
+    {
+      "storage": "1",
+      "varName": "embed12",
+      "message": "Froggy",
+      "footerIcon": "https://camo.githubusercontent.com/db099a1812b9e5615d12ec9dd5e9c2225019ee3fbd5b978ed7d0f8ba58b52dc3/68747470733a2f2f692e696d6775722e636f6d2f576361594758652e706e67",
+      "name": "Set Embed Footer"
+    },
+    {
+      "storage": "1",
+      "varName": "embed12",
+      "channel": "0",
+      "varName2": "",
+      "storage3": "0",
+      "varName3": "",
+      "name": "Send Embed Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
+    {
+      "storage": "1",
+      "varName": "number100",
+      "min": "1",
+      "max": "100",
+      "name": "Generate Random Number"
+    },
+    {
+      "title": "",
+      "author": "",
+      "color": "RANDOM",
+      "timestamp": "true",
+      "url": "",
+      "authorIcon": "",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "storage": "1",
+      "varName": "embed100",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "embed100",
+      "message": "> You threw **${tempVars(\"number100\")}** 🎲\n> ${member}",
+      "name": "Set Embed Description"
+    },
+    {
+      "storage": "1",
+      "varName": "embed100",
+      "message": "Froggy",
+      "footerIcon": "https://camo.githubusercontent.com/db099a1812b9e5615d12ec9dd5e9c2225019ee3fbd5b978ed7d0f8ba58b52dc3/68747470733a2f2f692e696d6775722e636f6d2f576361594758652e706e67",
+      "name": "Set Embed Footer"
+    },
+    {
+      "storage": "1",
+      "varName": "embed100",
+      "channel": "0",
+      "varName2": "",
+      "storage3": "0",
+      "varName3": "",
+      "name": "Send Embed Message"
+    },
+    {
+      "name": "End Action Sequence"
+    }
+  ],
+  "comType": "4",
+  "description": "This command will allow you to throw different dice",
+  "parameters": [
+    {
+      "name": "Dice",
+      "description": "select a dice",
+      "type": "STRING",
+      "required": true,
+      "choices": [
+        {
+          "name": "d4",
+          "value": "d4"
+        },
+        {
+          "name": "d6",
+          "value": "d6"
+        },
+        {
+          "name": "d8",
+          "value": "d8"
+        },
+        {
+          "name": "d10",
+          "value": "d10"
+        },
+        {
+          "name": "d12",
+          "value": "d12"
+        },
+        {
+          "name": "d20",
+          "value": "d20"
+        },
+        {
+          "name": "d100",
+          "value": "d100"
+        }
+      ]
+    }
+  ]
+}
